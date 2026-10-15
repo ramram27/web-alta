@@ -1,0 +1,166 @@
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    line-height: 1.7;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #1e3a8a, #2563eb);
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e0e7ff;
+}
+
+.hero hr {
+    width: 100px;
+    margin: 20px auto 0;
+    border: 2px solid #facc15;
+    border-radius: 5px;
+}
+
+/* Content Sections */
+.container {
+    background-color: white;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 5px solid #2563eb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.container:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+}
+
+/* Headings */
+h2 {
+    color: #1e40af;
+    font-size: 24px;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #dbeafe;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 10px;
+}
+
+/* Lists */
+ul,
+ol {
+    padding-left: 25px;
+    margin: 10px 0;
+}
+
+li {
+    padding: 4px 0;
+}
+
+li::marker {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+/* Bold Text */
+strong,
+b {
+    color: #1e3a8a;
+}
+
+/* Highlighted Text */
+mark {
+    background-color: #fef08a;
+    color: #854d0e;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+
+/* Deleted Price */
+del {
+    color: #dc2626;
+    margin-right: 8px;
+}
+
+/* Description List */
+dt {
+    color: #1d4ed8;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+dd {
+    margin-left: 20px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .hero {
+        padding: 30px 15px;
+    }
+
+    .hero h1 {
+        font-size: 27px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 18px;
+        margin: 15px auto;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+}

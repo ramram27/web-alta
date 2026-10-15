@@ -216,22 +216,14 @@ range	Slider control
 checkbox	Multiple selections
 radio	Single selection from a group
 file	File upload
-hidden	Hidden value sent with form
-image	Image as submit button
+hidden	Hidde
+	Image as submit button
 submit	Submit form
 reset	Reset form
 button	Generic clickable button
 
 
-
-# HTML Form Controls: Checkboxes, Radio Buttons, Select Dropdowns, and Textarea
-HTML provides different form controls to collect user input.
-In this lesson, we'll cover:
-
-Checkbox (<input type="checkbox">)
-Radio Button (<input type="radio">)
-Select Dropdown (<select>)
-Textarea (<textarea>)
+a (<textarea>)
 
 # Checkbox (type="checkbox")
 A checkbox allows users to select one or more options.
@@ -353,4 +345,13 @@ The <audio> tag plays sound files.
     Your browser does not support audio.
 
 </audio>
+# HTML Form Controls: Checkboxes, Radio Buttons, Select Dropdowns, and Textarea
+HTML provides different form controls to collect user input.
+In this lesson, we'll cover:
+
+Checkbox (<input type="checkbox">)
+Radio Button (<input type="radio">)
+Select Dropdown (<select>)
+Textaren value sent with form
+image
 

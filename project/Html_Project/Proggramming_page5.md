@@ -135,3 +135,16 @@ Address: Jaipur, Rajasthan, India
 
 
 © 2026 Full Stack Development Academy
+
+
+
+
+Student Marks Report
+
+Roll No.	Student Name	Subject Marks	Total
+C Programming	Mathematics	Computer Fundamentals
+101	Rahul	85	78	88	251
+102	Priya	92	86	90	268
+103	Amit	75	80	82	237
+104	Neha	88	91	85	264
+Class Average	255
